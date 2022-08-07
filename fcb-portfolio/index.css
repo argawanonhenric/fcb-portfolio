@@ -1,0 +1,64 @@
+* {
+	font-family: "Roboto", sans-serif;
+	/*semicolon: delimiter*/
+}
+
+h1, h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+img{
+	width: 250px;
+	height: 250px;
+}
+
+.jumbotron{
+	background-color: transparent;
+}
+
+#landing{
+	height: 96vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/*centers the content vertically using flexbox*/
+#gallery{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 80vh;
+	border-radius: 10px;
+	
+}
+/*removes the bullets of ul/li*/
+ul{
+	list-style-type: none;
+	padding: 0;
+
+}
+/*changes the colors of the section headers*/
+h2{
+	color: dark;
+}
+
+/*Add spacing and borders to each section*/
+.tools{
+	/*spaces that we have*/
+	padding: 25px;
+	height: 200px;
+	border: 5px solid lightgray;
+	margin: 20px;
+	width: 75%;
+	border-radius: 10px;
+	color: white;
+
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
